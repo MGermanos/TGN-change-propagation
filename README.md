@@ -34,7 +34,11 @@ This repository offers the datasets used in our work. Navigate to the following 
 
  ### Reading the results
 The code will output into files the results of the computations. 
+
 In the directory `Results\Metrics\directed_"project name"_results.csv`, you can find the performance metrics of every run. The columns of the file are divided as follows:
+
 `type of representation graph, sensitivity, specificity, PPV, Gmean, F-measure, Accuracy, MCC, AUC`. Please note that the first colummn will always contain "directed" as that is the chosen representation for this work.
+
 In the directory `Results\ConfMatrix\directed_"project name"_results"iteration number".csv`, you can find the confusion matrix of the predictions on every change set in the system. The columns of the files are divided as follows:
+
 `True positives, True Negatives, False positives, False negatives`.

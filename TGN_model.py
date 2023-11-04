@@ -233,7 +233,7 @@ for project in projects:
                       fp+=1
               tn=len(temporal_node_changes[-1])-(tp+fp+fn)
               
-              results_file=open("Results/ConfMatrix/directed_"+project+"_results"+str(repeating_shuffle)+".csv","a+")
+              results_file=open("Results/ConfMatrix/directed_"+project+"_results_"+str(repeating_shuffle)+".csv","a+")
               results_file.write(str(tp)+","+str(tn)+","+str(fp)+","+str(fn)+"\n")
               results_file.close()
               
@@ -289,6 +289,3 @@ for project in projects:
           results_file.write("directed,"+project+","+str(np.mean(sensitivity))+","+str(np.mean(specificity))+","+str(np.mean(ppv))+","+str(np.mean(gmean))+","+str(np.mean(fmeasure))+","+str(np.mean(accuracy))+","+str(np.mean(mcc))+","+str(np.mean(auc))+","+str(lstm_layer_size_1)+","+str(lstm_layer_size_2)+","+str(cutoff_value_for_coch)+","+str(cutoff_change_set_predicted_size)+","+optimizer+","+str(epochs)+"\n")
           results_file.close()
           
-          results_file=open("Results/ConfMatrix/undirected_"+project+"_results.csv","a+")
-          results_file.write("***\n")
-          results_file.close()

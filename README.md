@@ -42,3 +42,18 @@ In the directory `Results\Metrics\directed_"project name"_results.csv`, you can 
 In the directory `Results\ConfMatrix\directed_"project name"_results"iteration number".csv`, you can find the confusion matrix of the predictions on every change set in the system. The columns of the files are divided as follows:
 
 `True positives, True Negatives, False positives, False negatives`.
+
+## Cite us
+```bibtex
+@article{GERMANOS2024107368,
+title = {To change or not to change? Modeling software system interactions using Temporal Graphs and Graph Neural Networks: A focus on change propagation},
+journal = {Information and Software Technology},
+volume = {166},
+pages = {107368},
+year = {2024},
+issn = {0950-5849},
+doi = {https://doi.org/10.1016/j.infsof.2023.107368},
+url = {https://www.sciencedirect.com/science/article/pii/S0950584923002239},
+author = {Manuella Germanos and Danielle Azar and Eileen Marie Hanna},
+}
+```
